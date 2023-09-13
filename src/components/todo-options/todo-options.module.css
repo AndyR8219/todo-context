@@ -1,0 +1,77 @@
+.inputBlock {
+  display: flex;
+}
+
+.inputBlock .input {
+  padding: 0 5px;
+  width: 70%;
+  margin-left: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: relative;
+  z-index: 2;
+}
+.inputBlock .button {
+  position: relative;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left-width: 0;
+}
+
+.optionBlock {
+  margin-top: 10px;
+  display: flex;
+}
+
+.optionBlock .search {
+  width: 70%;
+  margin-left: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.inputBlock .button {
+  position: relative;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left-width: 0;
+}
+.button {
+  display: inline-block;
+  padding: 5px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #bdbdbd;
+}
+
+.sorted {
+  margin-left: 10px;
+  display: inline-block;
+  padding: 5px;
+  transition: background-color 0.15s ease-in-out;
+  margin-right: 10px;
+  background: rgb(94, 94, 94);
+  color: white;
+}
+
+.sorted:hover {
+  background: rgb(214, 214, 214);
+  color: black;
+}
+
+.notSorted {
+  margin-left: 10px;
+  display: inline-block;
+  padding: 5px;
+  transition: background-color 0.15s ease-in-out;
+  margin-right: 10px;
+}
+
+.notSorted:hover {
+  background-color: #bdbdbd;
+}

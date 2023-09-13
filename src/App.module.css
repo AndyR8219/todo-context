@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.form {
+  width: 700px;
+  margin: 20px auto;
+  text-align: left;
+}
